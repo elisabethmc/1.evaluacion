@@ -1,0 +1,5 @@
+print("Este es mi primer programa en python, que emoción")
+a=3
+b=2
+c=a+b
+print (c)
