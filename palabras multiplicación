@@ -1,0 +1,3 @@
+a= "Antonio"
+c=(3*a)
+print (c)
