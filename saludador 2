@@ -1,0 +1,11 @@
+def saludador_2():
+    hora=int(input("Dime que hora es:"))
+    if(hora>=6 and hora<=12):
+        print("Buenos dias Don Pepito")
+    else:
+        if(hora>12 and hora<20):
+            print("Buenas tardes Don Pepito")
+        else:
+            print("Buenas noches Don Pepito")
+            
+saludador_2()
