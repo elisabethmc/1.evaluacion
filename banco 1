@@ -1,0 +1,21 @@
+def banco_4():
+    total=int(input("Dime cuanto dinero vas a meter: "))
+    print ("Has introducido:")
+    print (str(total)+"€")
+    saco=int(input("Cuanto dinero quieres sacar:"))
+    if(total-saco<=0):
+        print("Lo siento, no puedes sacar tanto :((")
+    if(total-saco>0):
+         print ("Te queda")
+         print (str(total-saco)+"€")
+    respuesta=input( "Quieres sacar algo mas?: ")
+    if(respuesta=="si" or respuesta=="Si"):
+        saco2=int(input("Cuanto dinero mas quieres sacar?: "))
+        if(total-saco-saco2<0):
+            print ("Lo siento, no puedes sacar tanto :((")
+        if(total-saco-saco2>0):
+            print("Te quedan:" + str(total-saco-saco2) +str ("€"))
+    if(respuesta=="no" or respuesta=="No"):
+        print("Vale, Hasta pronto!!!")
+
+banco_4()
